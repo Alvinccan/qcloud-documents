@@ -100,7 +100,7 @@ go-mysql-elasticsearch 是一款开源的高性能的 MySQL 数据同步 Elastic
 	# force flush the pending requests if we don't have enough items >= bulk_size
 	flush_bulk_time = "200ms"
 	# Ignore table without primary key
-	skip_no_pk_table = true  # 这里需要注意，go-mysql-elasticsearch会
+	skip_no_pk_table = true
 	# MySQL data source
 	[[source]]
 	schema = "mysql_es"
